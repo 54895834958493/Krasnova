@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+}
+body {
+  font-family: 'Playfair Display', serif;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+}
+.header {
+  background-color: #242a29;
+  padding: 10px 0;
+}
+.header h1 {
+  margin: 0;
+}
+.header nav {
+  margin-top: 10px;
+}
+.header nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #afafaf;
+}
+.footer {
+  margin-top: 20px;
+  padding: 10px 0;
+  background-color: #f2f2f2;
+}

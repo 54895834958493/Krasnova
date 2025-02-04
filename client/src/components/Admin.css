@@ -1,0 +1,159 @@
+.admin-panel {
+    font-family: 'Playfair Display', serif;
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.admin-panel h1, .admin-panel h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.admin-panel .success-message {
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.admin-panel input, .admin-panel select, .admin-panel textarea {
+    font-family: 'Playfair Display', serif;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.admin-panel button {
+    font-family: 'Playfair Display', serif;
+    background: linear-gradient(45deg, #da7d88, #f2b9b7);
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 12px 10px;
+    font-size: 13px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.admin-panel button:hover {
+    background-color: #f2b9b7;
+    color: #fff;
+}
+
+.admin-panel .order-list ul, 
+.admin-panel .product-list ul, 
+.admin-panel .category-management ul {
+    list-style: none;
+    padding: 0;
+}
+
+.admin-panel .order-list li, 
+.admin-panel .product-list li, 
+.admin-panel .category-management li {
+    background-color: #f9f9f9;
+    font-size: 13px;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.admin-panel .order-filter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.admin-panel .order-filter label {
+    font-size: 16px;
+    color: #333;
+}
+
+.admin-panel .category-management {
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.admin-panel .category-management input {
+    width: 70%;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.admin-panel .category-management button {
+    width: auto;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.admin-panel .product-management input, 
+.admin-panel .product-management select, 
+.admin-panel .product-management textarea {
+    width: 80%;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.admin-panel .product-management button {
+    width: auto;
+    font-size: 14px;
+    padding: 8px 16px;
+    margin-top: 10px;
+}
+
+.admin-panel .product-management textarea {
+    height: 120px;
+}
+
+.admin-panel button.delete, 
+.admin-panel button.edit {
+    background-color: #dc3545;
+    padding: 6px 12px;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.admin-panel button.delete:hover, 
+.admin-panel button.edit:hover {
+    background-color: #c82333;
+}
+
+.admin-panel .product-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.admin-panel .product-list li button {
+    margin-left: 10px;
+    order: 2;
+}
+
+.admin-panel .product-list li span {
+    flex-grow: 1;
+}
+
+.admin-panel .category-management li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.admin-panel .category-management li button {
+    margin-left: 10px;
+    order: 2;
+}

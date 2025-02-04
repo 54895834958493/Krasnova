@@ -1,0 +1,179 @@
+.designer-container {
+  padding: 20px;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+}
+
+.designer-content {
+  font-family: 'Playfair Display', serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.options {
+  width: 45%;
+}
+
+.items {
+  font-family: 'Montserrat', serif;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.item {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  width: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 200px; /* Фиксированная высота карточки */
+}
+
+.item img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  flex-shrink: 0; /* Предотвращает сжатие изображения */
+}
+
+.item p {
+  flex-grow: 1; /* Растягивает текст, чтобы кнопка всегда оставалась внизу */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 5px 0;
+  max-height: 40px; /* Ограничение высоты текста */
+  overflow: hidden; /* Обрезает длинный текст */
+}
+
+.item button {
+  font-family: 'Montserrat', serif;
+  padding: 7px 18px;
+  border: none;
+  background-color: #3a3a3a;
+  color: white;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  margin-top: auto; /* Прижимает кнопку вниз */
+}
+
+.item button:hover {
+  background-color: #606060;
+}
+
+.bouquet {
+  width: 50%;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 10px;
+  position: relative;
+  height: 600px;
+  overflow: hidden;
+}
+
+.vase-container {
+  position: relative;
+  width: 300px;
+  height: 400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.vase {
+  width: 250px;
+  height: auto;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.bouquet-item {
+  position: absolute;
+  width: 50px;
+  height: auto;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.add-to-cart {
+  font-family: 'Montserrat', serif;
+  padding: 8px 19px;
+  border: none;
+  background-color: #ffc1c1;
+  color: white;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.add-to-cart:hover {
+  background-color: #3a3a3a;
+}
+
+.category-buttons {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.category-button {
+  font-family: 'Montserrat', serif;
+  margin: 0 10px 10px 0;
+  padding: 10px 20px;
+  border: none;
+  background-color: #3a3a3a;
+  color: white;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.category-button.active {
+  background-color: #ffc1c1;
+  color: white;
+  border-color: #ffc1c1;
+}
+
+.category-button:hover {
+  background-color: #606060;
+  transform: scale(1.05);
+}
+
+.reset-button {
+  font-family: 'Montserrat', serif;
+  padding: 8px 20px;
+  border: none;
+  background-color: #fc8f8f;
+  color: white;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.reset-button:hover {
+  background-color: #ff6e6e;
+}

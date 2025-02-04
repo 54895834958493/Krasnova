@@ -1,0 +1,95 @@
+.home-container {
+    font-family: 'Playfair Display', serif;
+    position: relative;
+    overflow: hidden;
+}
+
+.home-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Высота экрана */
+    padding: 0 5%;
+}
+
+.content-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.text-container {
+    flex: 1;
+    max-width: 50%;
+}
+
+.image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.flower-image {
+    max-width: 100%;
+    height: auto;
+    width: 420px; /* Размер изображения */
+    transition: opacity 1s ease-in-out;
+}
+
+.fade-in {
+    opacity: 1;
+}
+
+.fade-out {
+    opacity: 0;
+}
+
+.main-title {
+    font-size: 60px;
+    color: #F4D2D3;
+    margin: 0 0 20px;
+}
+
+.sub-title {
+    font-size: 20px;
+    color: #D9D9D9;
+    margin-bottom: 30px;
+}
+
+.button-container {
+    display: flex;
+    gap: 20px; /* Расстояние между кнопками */
+}
+
+.catalog-button,
+.designer-button {
+    font-family: 'Montserrat', serif;
+    padding: 16px 40px;
+    background: #4d4d4d;
+    color: rgb(246, 201, 201);
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.catalog-button:hover,
+.designer-button:hover {
+    background: #3a3a3a;
+}
+
+.contact-section {
+    width: 100%;
+    padding: 1px 0;
+    background-color: #ffffff;
+}
+.catalog-section {
+    color: #ffffff;
+    width: 100%;
+    padding: 1px 0;
+    background-color: #f9e4e5; /* Нежно-розовый фон */
+    text-align: center; /* Выравнивание содержимого */
+}

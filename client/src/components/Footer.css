@@ -1,0 +1,68 @@
+.footer {
+    background: linear-gradient(135deg, #e7bdbd, #F4D2D3);
+    color: #fff;
+    padding: 5px 20px;
+    font-family: 'Montserrat', serif;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .footer-brand h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.3rem;
+    margin-bottom: 10px;
+  }
+  
+  .footer-brand p {
+    font-size: 1rem;
+    margin: 0;
+  }
+  
+  .footer-socials h3,
+  .footer-contacts h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    font-size: 1.2rem;
+    transition: transform 0.3s, background-color 0.3s;
+    cursor: pointer;
+  }
+  
+  .icon:hover {
+    transform: scale(1.1);
+    background: rgba(255, 255, 255, 0.4);
+  }
+  
+  .footer-contacts p {
+    margin: 5px 0;
+  }
+  
+  .footer-bottom {
+    margin-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    padding-top: 10px;
+    font-size: 0.9rem;
+  } 

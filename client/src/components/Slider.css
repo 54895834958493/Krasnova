@@ -1,0 +1,46 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.slider-container {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Высота слайдера равна высоте экрана */
+  overflow: hidden;
+}
+
+.slider-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Масштабирование изображения */
+}
+
+.slick-slider {
+  height: 100%;
+}
+
+.slick-dots {
+  position: absolute;
+  bottom: 20px; /* Расположение точек навигации */
+  z-index: 15;
+}
+
+.slick-dots li button:before {
+  font-size: 15px;
+  color: #D9D9D9;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #4C3F30;
+}
+
+.slick-prev {
+  left: 10px;
+  z-index: 20;
+}
+
+.slick-next {
+  right: 10px;
+  z-index: 20;
+}

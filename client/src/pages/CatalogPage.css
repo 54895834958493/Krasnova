@@ -1,0 +1,117 @@
+.catalog {
+  font-family: 'Playfair Display', serif;
+  padding: 20px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2.3rem;
+  margin-bottom: 30px;
+}
+
+.categories {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.categories button {
+  font-family: 'Montserrat', serif;
+  margin: 0 10px 10px 0;
+  padding: 10px 20px;
+  border: none;
+  background-color: #ffc1c1;
+  color: white;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.categories button.active {
+  background-color: #ffc1c1;
+  color: white;
+  font-weight: bold;
+}
+
+.categories button:hover {
+  background-color: #3a3a3a;
+  transform: scale(1.05);
+}
+
+.sort-options {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.sort-options label {
+  font-family: 'Montserrat', serif;
+  font-size: 16px;
+  color: #444;
+}
+
+.sort-options select {
+  font-family: 'Montserrat', serif;
+  padding: 5px 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  cursor: pointer;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.sort-options select:focus {
+  border-color: #ee9da7;
+  box-shadow: 0 0 5px rgba(238, 157, 167, 0.5);
+}
+
+.catalog-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Три колонки */
+  gap: 15px; /* Уменьшение отступов между элементами */
+  justify-items: center;
+  margin-bottom: 20px; /* Отступ снизу от карточек */
+}
+
+.product-card {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 15px;
+  text-align: center;
+  background: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  max-width: 320px; /* Увеличенная ширина карточек */
+  width: 100%; /* Карточки растягиваются на всю доступную ширину */
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.product-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.product-card h3 {
+  font-size: 1.4em;
+  margin: 10px 0;
+  color: #444;
+}
+
+.product-card p {
+  font-size: 1em;
+  color: #666;
+}
